@@ -9,6 +9,7 @@ on:
   pull_request:
     branches: [ "main" ]
 
+
 permissions:
   contents: read
 
@@ -37,3 +38,4 @@ jobs:
     - name: Run main
       run: |
         python main.py
+
